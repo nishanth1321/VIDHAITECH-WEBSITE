@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Footer from "@/components/page-components/footer";
-import Navbar from "@/components/page-components/navbar";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 import { Nunito } from "next/font/google"; // Import Playfair Display
 
 const playfairDisplay = Nunito({ subsets: ["latin"], weight: ["400", "700"] }); // Adjust weights as needed
