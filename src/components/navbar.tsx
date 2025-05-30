@@ -256,13 +256,7 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
-  const toggleDropdown = (dropdown: keyof DropdownState) => {
-    setDropdownOpen((prev) => ({
-      ...prev,
-      [dropdown]: !prev[dropdown],
-    }));
-  };
-
+ 
   return (
     <>
       {/* Floating Navbar */}
@@ -358,7 +352,7 @@ export default function Navbar() {
             <Link
               href="/sapConsulting"
               className="block text-gray-800 font-semibold hover:text-blue-600 py-2 transition duration-300"
-              onClick={(e) => {
+              onClick={() => {
                 
                 setIsOpen(false);
               }}
@@ -369,7 +363,7 @@ export default function Navbar() {
             <a
               href="/oracleConsulting"
               className="block text-gray-800 font-semibold hover:text-blue-600 py-2 transition duration-300"
-              onClick={(e) => {
+              onClick={() => {
                 
                 setIsOpen(false);
               }}
@@ -380,7 +374,7 @@ export default function Navbar() {
             <a
               href="/odooConsulting"
               className="block text-gray-800 font-semibold hover:text-blue-600 py-2 transition duration-300"
-              onClick={(e) => {
+              onClick={() => {
                
                 setIsOpen(false);
               }}
@@ -391,7 +385,7 @@ export default function Navbar() {
             <a
               href="/staffAugmentation"
               className="block text-gray-800 font-semibold hover:text-blue-600 py-2 transition duration-300"
-              onClick={(e) => {
+              onClick={() => {
               
                 setIsOpen(false);
               }}
@@ -402,7 +396,7 @@ export default function Navbar() {
             <a
               href="/aboutUs"
               className="block text-gray-800 font-semibold hover:text-blue-600 py-2 transition duration-300"
-              onClick={(e) => {
+              onClick={() => {
                
                 setIsOpen(false);
               }}

@@ -80,13 +80,13 @@ const Footer: React.FC = () => {
           Copyright © 2025 Vidhai Technologies Private Limited. All rights reserved.
         </p>
         <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 text-center">
-          <a href="#" className="hover:text-gray-300 transition-colors duration-300">
+          <a href="/aboutUs" className="hover:text-gray-300 transition-colors duration-300">
             About Us
           </a>
-          <a href="#" className="hover:text-gray-300 transition-colors duration-300">
+          <a href="/termsandconditions" className="hover:text-gray-300 transition-colors duration-300">
             Terms and Conditions
           </a>
-          <a href="#" className="hover:text-gray-300 transition-colors duration-300">
+          <a href="/privacypolicy" className="hover:text-gray-300 transition-colors duration-300">
             Privacy Policy
           </a>
         </div>

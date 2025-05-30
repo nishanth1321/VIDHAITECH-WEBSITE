@@ -90,7 +90,7 @@ export default function Header() {
           {/* Two Buttons Container */}
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start">
             {/* SAP Solutions Button - Primary */}
-            <Link href="/" legacyBehavior>
+            <Link href="/sapConsulting" legacyBehavior>
               <a className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md flex items-center justify-center w-44 transition duration-300 shadow-lg">
                 <span className="mr-2">SAP Solutions</span>
               </a>

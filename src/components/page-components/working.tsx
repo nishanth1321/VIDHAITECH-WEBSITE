@@ -105,7 +105,6 @@
 
 "use client";
 
-import { FaBrain, FaCode, FaCloud, FaChartLine } from "react-icons/fa";
 
 export default function Working() {
   return (

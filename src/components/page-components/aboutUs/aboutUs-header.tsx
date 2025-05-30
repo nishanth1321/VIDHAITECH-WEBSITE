@@ -6,7 +6,7 @@ const AboutUsHeader = () => {
       <div className="max-w-9xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-1 items-center">
           {/* Left Column - Title */}
-          <div className="sm:-mt-14 mt-0">
+          <div className="sm:-mt-6 mt-0">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight sm:ml-4 ml-0">
               Our Journey and Core Values
             </h2>
